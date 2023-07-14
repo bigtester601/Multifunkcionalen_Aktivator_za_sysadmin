@@ -1,0 +1,12 @@
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\bin\Debug\OpenKMSActivator.exe.config
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\bin\Debug\OpenKMSActivator.exe
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\bin\Debug\OpenKMSActivator.pdb
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\bin\Debug\OpenKMSActivator.xml
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\obj\Debug\OpenKMSActivator.vbproj.AssemblyReference.cache
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\obj\Debug\OpenKMSActivator.Form1.resources
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\obj\Debug\OpenKMSActivator.Resources.resources
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\obj\Debug\OpenKMSActivator.vbproj.GenerateResource.cache
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\obj\Debug\OpenKMSActivator.vbproj.CoreCompileInputs.cache
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\obj\Debug\OpenKMSActivator.exe
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\obj\Debug\OpenKMSActivator.xml
+C:\Users\emokr\source\repos\OpenKMSActivator\OpenKMSActivator\obj\Debug\OpenKMSActivator.pdb
