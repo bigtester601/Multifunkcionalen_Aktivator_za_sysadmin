@@ -55,7 +55,7 @@ Public Class Form1
 
         Dim processInfo As New ProcessStartInfo()
         processInfo.FileName = "cscript"
-        processInfo.Arguments = $"/nologo ""{osppPath}"" /sethst:kms8.msguides.com /act"
+        processInfo.Arguments = $"/nologo ""{osppPath}"" /inpkey {kmsKeys} /sethst:kms8.msguides.com /act"
 
         RunActivationProcess(processInfo, "Office")
     End Sub
