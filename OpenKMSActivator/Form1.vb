@@ -1,4 +1,4 @@
-﻿Imports System.Diagnostics
+Imports System.Diagnostics
 Imports System.IO
 
 Public Class Form1
@@ -14,12 +14,12 @@ Public Class Form1
 
     Private Sub WindowsButton_Click(sender As Object, e As EventArgs) Handles WindowsButton.Click
         isWindowsMode = True
-        LogTextBox.Text = "Switched to Windows mode."
+        LogTextBox.Text = "Прехвърлен към режим Windows."
     End Sub
 
     Private Sub OfficeButton_Click(sender As Object, e As EventArgs) Handles OfficeButton.Click
         isWindowsMode = False
-        LogTextBox.Text = "Switched to Office mode."
+        LogTextBox.Text = "Прехвърлен към режим Office."
     End Sub
 
     Private Sub ActivateWindows()
@@ -90,11 +90,30 @@ Public Class Form1
 
         ' Add your KMS keys and their corresponding versions and editions here
         kmsKeys.Add("Windows 10 Pro", "W269N-WFGWX-YVC9B-4J6C9-T83GX")
+        kmsKeys.Add("Windows 11 Pro", "W269N-WFGWX-YVC9B-4J6C9-T83GX")
+        kmsKeys.Add("Windows 10 Pro N", "MH37W-N47XK-V7XM9-C7227-GCQG9")
+        kmsKeys.Add("Windows 11 Pro N", "MH37W-N47XK-V7XM9-C7227-GCQG9")
         kmsKeys.Add("Windows 10 Enterprise", "NPPR9-FWDCX-D2C8J-H872K-2YT43")
-        kmsKeys.Add("Windows 8.1", "M9Q9P-WNJJT-6PXPY-DWX8H-6XWKK") ' Core edition
+        kmsKeys.Add("Windows 11 Enterprise", "NPPR9-FWDCX-D2C8J-H872K-2YT43")
+        kmsKeys.Add("Windows 11 Enterprise N", "DPH2V-TTNVB-4X9Q3-TJR4H-KHJW43")
+        kmsKeys.Add("Windows 11 Enterprise G", "YYVX9-NTFWV-6MDM3-9PT4T-4M68B")
+        kmsKeys.Add("Windows 10 Enterprise G", "YYVX9-NTFWV-6MDM3-9PT4T-4M68B")
+        kmsKeys.Add("Windows 10 Enterprise N", "DPH2V-TTNVB-4X9Q3-TJR4H-KHJW43")
+        kmsKeys.Add("Windows 10 Enterprise G N", "44RPN-FTY23-9VTTB-MP9BX-T84FV")
+        kmsKeys.Add("Windows 11 Enterprise G N", "44RPN-FTY23-9VTTB-MP9BX-T84FV")
+        kmsKeys.Add("Windows 8.1 Enterprise N", "TT4HM-HN7YT-62K67-RGRQJ-JFFXW")
+        kmsKeys.Add("Windows 8.1 Enterprise", "MHF9N-XY6XB-WVXMC-BTDCT-MKKG7")
+        kmsKeys.Add("Windows 8.1 Pro", "GCRJD-8NW9H-F2CDX-CCM8D-9D6T9")
+        kmsKeys.Add("Windows 8.1 Pro N", "HMCNV-VVBFX-7HMBH-CTY9B-B4FXY")
+        kmsKeys.Add("Windows 7 Enterprise N", "YDRBP-3D83W-TY26F-D46B2-XCKRJ")
+        kmsKeys.Add("Windows 7 Enterprise", "33PXH-7Y6KF-2VJC9-XBBR8-HVTHH")
+        kmsKeys.Add("Windows 7 Professional", "FJ82H-XT6CR-J8D7P-XQJJ2-GPDD4")
+        kmsKeys.Add("Windows 7 Professional N", "MRPKT-YTG23-K7D7T-X2JMM-QY7MG")
+        kmsKeys.Add("Windows 7 Enterprise E", "C29WB-22CC8-VJ326-GHFJW-H9DH4+")
+        kmsKeys.Add("Windows 7 Professional E", "W82YF-2Q76Y-63HXB-FGJG9-GF7QX")
         kmsKeys.Add("Office 2016", "XQNVK-8JYDB-WJ9W3-YJ8YR-WFG99") ' Pro Plus
         kmsKeys.Add("Office 2013", "YC7DK-G2NP3-2QQC3-J6H88-GVGXT") ' Pro Plus
-        kmsKeys.Add("Office 2010", "VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB") ' Pro Plus
+        kmsKeys.Add("Office 2010", "VYBBJ-TRJPB-QFQRF-QFT4D-H3GVB") ' Pro Pluss
         ' Add more keys as needed
 
         If isWindowsMode Then
